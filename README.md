@@ -1,3 +1,0 @@
-# Ejercicios
-# Ejercicios
-# Ejercicios
