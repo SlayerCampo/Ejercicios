@@ -134,10 +134,21 @@ p {
 
 .ejercicio video {
   width: 100%;
-  margin: 15px 0 20px;
+  max-width: 100%;
+  height: auto;
+
+  /* límite para que no se vuelva gigante */
+  max-height: 60vh;
+
+  object-fit: contain; /* 👈 CLAVE */
+  
+  margin: 15px auto 20px;
   border-radius: 18px;
   background: #000;
+
+  display: block;
 }
+
 
 /* ===============================
    BOTÓN HECHO ✨
@@ -409,3 +420,8 @@ body[class^="tema-"] .btn-volver:hover {
 
 
 
+@media (max-width: 600px) {
+  .ejercicio video {
+    max-height: 45vh;
+  }
+}

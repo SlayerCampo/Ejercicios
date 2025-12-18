@@ -24,45 +24,54 @@ const mensajes = {
 // ===============================
 const rutinas = {
   lunes: [
-    { nombre: "Sentadilla profunda", reps: "4 series · 15 rep", video: "videos/sentadilla_profunda.mp4" },
-    { nombre: "Puente de glúteo", reps: "4 series · 20 rep", video: "videos/puente_gluteo.mp4" },
-    { nombre: "Zancadas atrás", reps: "3 series · 12 rep por pierna", video: "videos/zancadas_atras.mp4" },
-    { nombre: "Sentadilla isométrica (pared)", reps: "3 series · 30–45 seg", video: "videos/sentadilla_isometrica.mp4" },
-    { nombre: "Patadas de glúteo", reps: "3 series · 15 rep por pierna", video: "videos/patadas_gluteo.mp4" },
-    { nombre: "Abducciones acostada", reps: "3 series · 25 rep", video: "videos/abducciones_acostada.mp4" }
+    { nombre: "Sentadilla profunda", reps: "3 series · 12 rep (entre cada serie, descansas 2 min)", video: "videos/sentadillaProfunda.mp4" },
+    { nombre: "Puente de glúteo", reps: "3 series · 20 rep  (hazlas de forma tarquila, no tan rapido y concentra tu fuerza en tu nalga, descansas 2 min entre serie )", video: "videos/puenteDeGluteos.mp4" },
+    { nombre: "Zancadas atrás", reps: "3 series · 10 rep por pierna (descansas 2 min entre serie)", video: "videos/zancadaAtras.mp4" },
+    { nombre: "Sentadilla isométrica (pared)", reps: "3 series · 30 seg (descansas 3 min entre serie y estira las piernas mientas descansas)", video: "videos/SentadillaIsometrica.mp4" },
+    { nombre: "Patadas de glúteo", reps: "3 series · 15 rep por pierna (descanas 2 min entre serie)", video: "videos/patadaGluteo.mp4" },
+    { nombre: "Abducciones acostada", reps: "3 series · 25 rep", video: "videos/AbducionAcostada.mp4" }
   ],
 
   martes: [
-    { nombre: "Plancha", reps: "3 series · 20–30 seg", video: "videos/plancha.mp4" },
-    { nombre: "Crunch", reps: "3 series · 15 rep", video: "videos/crunch.mp4" },
-    { nombre: "Elevaciones de piernas", reps: "3 series · 12 rep", video: "videos/elevaciones_piernas.mp4" },
-    { nombre: "Bicycle crunch", reps: "3 series · 20 rep", video: "videos/bicycle_crunch.mp4" }
+    { nombre: "Plancha", reps: "3 series · 30 seg (descansas 3 min entre series)", video: "videos/Plancha.mp4" },
+    { nombre: "Crunch", reps: "3 series · 15 rep (descansa 3 min entre series)", video: "videos/crunch.mp4" },
+    { nombre: "Elevaciones de piernas", reps: "3 series · 15 rep (descansa 2 min entre serie)", video: "videos/elevacionDePiernas.mp4" },
+    { nombre: "Bicycle crunch", reps: "3 series · 20 rep (descansa 2 min entre serie)", video: "videos/bicycleCrunch.mp4" }
   ],
 
   miercoles: [
-    { nombre: "Sentadilla sumo", reps: "4 series · 20 rep", video: "videos/sentadilla_sumo.mp4" },
-    { nombre: "Puente glúteo 1 pierna", reps: "3 series · 12 rep por pierna", video: "videos/puente_una_pierna.mp4" },
-    { nombre: "Step-ups (silla)", reps: "3 series · 12 rep por pierna", video: "videos/step_ups.mp4" },
-    { nombre: "Desplantes laterales", reps: "3 series · 12 rep", video: "videos/desplantes_laterales.mp4" },
-    { nombre: "Fire hydrants", reps: "3 series · 15 rep por pierna", video: "videos/fire_hydrant.mp4" },
-    { nombre: "Abducciones isométricas", reps: "3 series · 30 seg", video: "videos/abduccion_isometrica.mp4" }
+    { nombre: "Sentadilla sumo", reps: "3 series · 20 rep (descansas 2 min entre serie)", video: "videos/sentadillaSumo.mp4" },
+    { nombre: "Puente glúteo 1 pierna", reps: "3 series · 10 rep por pierna (descansas 2 min entre serie)", video: "videos/PuenteGluteoUnaPierna.mp4" },
+    { nombre: "Step-ups (silla)", reps: "3 series · 10 rep por pierna (descansas 2 min entre serie)", video: "videos/stepUp.mp4" },
+    { nombre: "Desplantes laterales", reps: "3 series · 12 rep", video: "videos/DesplantesLaterales.mp4" },
+    { nombre: "Fire hydrants", reps: "3 series · 15 rep por pierna", video: "videos/fireHydrants.mp4" },
+    { nombre: "Abducciones isométricas", reps: "3 series · 30 seg", video: "videos/abduccionIsometrica.mp4" }
   ],
 
   jueves: [
-    { nombre: "Flexiones (rodillas o pared)", reps: "3 series · 8–10 rep", video: "videos/flexiones.mp4" },
-    { nombre: "Fondos en silla", reps: "3 series · 10 rep", video: "videos/fondos_silla.mp4" },
-    { nombre: "Plancha con hombros", reps: "3 series · 20 rep", video: "videos/plancha_hombros.mp4" },
-    { nombre: "Superman", reps: "3 series · 15 rep", video: "videos/superman.mp4" },
-    { nombre: "Plank hold", reps: "3 series · 30 seg", video: "videos/plank_hold.mp4" }
+    { nombre: "Flexiones De Pecho (rodillas)", reps: "3 series · 8 rep (descansa 3 min entre serie)", video: "videos/flexionesPechoRodillas.mp4" },
+    { nombre: "Fondos en silla", reps: "3 series · 10 rep (descansa 2 min entre serie)", video: "videos/FondosSilla.mp4" },
+    { nombre: "Plancha toque de hombros", reps: "3 series · 20 rep (osea 20 toques de hombros intercalados, descansas 2 min entre serie)", video: "videos/PlanchaToqueHombros.mp4" },
+    { nombre: "Superman", reps: "3 series · 20 rep (descansas 2 min entre serie)", video: "videos/Superman.mp4" },
+    { nombre: "Plancha Dinamica", reps: "3 series · 30 seg", video: "videos/PlanchaDinamica.mp4" },
+    { nombre: "VIDEO HIT", reps: `
+    sigue el video y haz todo lo que ella dice, ¡tú puedes! TE AMOOOOOOOOOOOO <br><br>
+    <a href="https://www.youtube.com/watch?v=R8_CIT8TTGM"
+       target="_blank"
+       class="link-video">
+       ▶ Ver en YouTube 
+    </a>
+  `, video: "videos/HIT.mp4" }
+
   ],
 
   viernes: [
-    { nombre: "Sentadilla + brazos arriba", reps: "3 series · 15 rep", video: "videos/sentadilla_brazos.mp4" },
-    { nombre: "Jump squats (suaves)", reps: "3 series · 8–10 rep", video: "videos/jump_squat.mp4" },
-    { nombre: "Mountain climbers", reps: "3 series · 30 seg", video: "videos/mountain_climbers.mp4" },
-    { nombre: "Zancadas caminando", reps: "3 series · 12 rep por pierna", video: "videos/zancadas_caminando.mp4" },
-    { nombre: "Jumping jacks", reps: "3 series · 30 seg", video: "videos/jumping_jacks.mp4" },
-    { nombre: "Plancha", reps: "3 series · 30 seg", video: "videos/plancha.mp4" }
+    { nombre: "Sentadilla + brazos arriba", reps: "3 series · 15 rep (descansa 1minuto entre casa serie)", video: "videos/sentadillaBrazosArriba.mp4" },
+    { nombre: "Jump squats (suaves)", reps: "3 series · 8–10 rep (descansa 1minuto entre casa serie)", video: "videos/jumpSquat.mp4" },
+    { nombre: "Mountain climbers", reps: "3 series · 30 seg (descansa 1minuto entre casa serie)", video: "videos/MountainClimbers.mp4" },
+    { nombre: "Zancadas caminando", reps: "3 series · 12 rep por pierna (descansa 1minuto entre casa serie)", video: "videos/ZancadasCaminando.mp4" },
+    { nombre: "Jumping jacks", reps: "3 series · 30 seg (descansa 1minuto entre casa serie)", video: "videos/JumpingJacks.mp4" },
+    { nombre: "PLANCHA FINAL", reps: "1 VEZ DURANTE 1 MINUTO VAMOSSSSSSSSSSS", video: "videos/plancha.mp4" }
   ]
 };
 
