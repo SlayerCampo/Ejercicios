@@ -29,7 +29,7 @@ const rutinas = {
     { nombre: "Zancadas atrás", reps: "3 series · 10 rep por pierna (descansas 2 min entre serie)", video: "videos/zancadaAtras.mp4" },
     { nombre: "Sentadilla isométrica (pared)", reps: "3 series · 30 seg (descansas 3 min entre serie y estira las piernas mientas descansas)", video: "videos/SentadillaIsometrica.mp4" },
     { nombre: "Patadas de glúteo", reps: "3 series · 15 rep por pierna (descansas 2 min entre serie)", video: "videos/patadaGluteo.mp4" },
-    { nombre: "Abducciones acostada", reps: "3 series · 20 rep (descansas por 2 min) ", video: "videos/AbducionACOSTADA.mp4" }
+    { nombre: "Abducciones acostada", reps: "3 series · 20 rep (descansas por 2 min) ", video: "videos/AbducionAcostada.mp4" }
   ],
 
   martes: [
